@@ -1,0 +1,12 @@
+/*
+ * Copyright (c) 2024 Matt Gilbert
+ *
+ * SPDX-License-Identifier: MIT
+ */
+
+#include "lowkey36.dtsi"
+
+// Offset of 5 because the left side has 5 columns
+&default_transform {
+    col-offset = <5>;
+};

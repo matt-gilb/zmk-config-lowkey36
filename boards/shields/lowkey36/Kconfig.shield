@@ -1,0 +1,8 @@
+# Copyright (c) 2024 Matt Gilbert
+# SPDX-License-Identifier: MIT
+
+config SHIELD_LOWKEY36_LEFT
+    def_bool $(shields_list_contains,lowkey36_left)
+
+config SHIELD_LOWKEY36_RIGHT
+    def_bool $(shields_list_contains,lowkey36_right)
