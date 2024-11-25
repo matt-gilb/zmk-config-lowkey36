@@ -1,0 +1,16 @@
+file_format: "1"
+id: lowkey36
+name: LowKey36
+type: shield
+url: https://github.com/matt-gilb/zmk-config-lowkey36
+requires:
+  - pro_micro
+exposes:
+  - nice_view
+features:
+  - keys
+  - display
+  - studio
+siblings:
+  - lowkey36_left
+  - lowkey36_right

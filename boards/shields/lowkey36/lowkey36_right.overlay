@@ -6,7 +6,16 @@
 
 #include "lowkey36.dtsi"
 
-// Offset of 5 because the left side has 5 columns
+&kscan0 {
+    col-gpios
+    = <&pro_micro 16 GPIO_ACTIVE_HIGH> // col0
+    , <&pro_micro 17 GPIO_ACTIVE_HIGH> // col1
+    , <&pro_micro 18 GPIO_ACTIVE_HIGH> // col2
+    , <&pro_micro 19 GPIO_ACTIVE_HIGH> // col3
+    , <&pro_micro 20 GPIO_ACTIVE_HIGH> // col4
+    ;
+};
+
 &default_transform {
-    col-offset = <5>;
+    col-offset = <5>; // Offset of 5 because the left side has 5 columns
 };
