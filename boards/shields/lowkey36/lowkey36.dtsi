@@ -37,7 +37,7 @@
         >;
     };
     
-    &lowkey36_physical_layout {
-        transform = <&matrix_transform0>;
-    };
+    //&lowkey36_physical_layout {
+    //    transform = <&matrix_transform0>;
+    //};
 };
