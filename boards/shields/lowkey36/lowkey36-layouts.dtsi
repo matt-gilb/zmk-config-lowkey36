@@ -43,10 +43,10 @@
           , <&key_physical_attrs 100 100 1300  250     0      0     0>
           , <&key_physical_attrs 100 100 1400  300     0      0     0> //end row2
           , <&key_physical_attrs 100 100  400  375     0      0     0> //left-thumb
-          , <&key_physical_attrs 150 100  520  350   110      0     0>
-          , <&key_physical_attrs 150 100  620  350   110      0     0>
-          , <&key_physical_attrs 100 100  780  350    70      0     0> //right-thumb
-          , <&key_physical_attrs 150 100  880  350    70      0     0>
+          , <&key_physical_attrs 150 100  520  350 11000      0     0>
+          , <&key_physical_attrs 150 100  620  350 11000      0     0>
+          , <&key_physical_attrs 100 100  780  350  7000      0     0> //right-thumb
+          , <&key_physical_attrs 150 100  880  350  7000      0     0>
           , <&key_physical_attrs 150 100 1000  375     0      0     0>
           ;
      };
