@@ -6,7 +6,7 @@ url: https://github.com/matt-gilb/zmk-config-lowkey36
 requires:
   - pro_micro
 exposes:
-  - nice_view
+  - i2c_oled
 features:
   - keys
   - display
