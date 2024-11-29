@@ -51,10 +51,10 @@ nice_view_spi: &spi0 {
         diode-direction = "col2row";
         wakeup-source;
         row-gpios
-            = <&pro_micro 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row0
-            , <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row1
-            , <&pro_micro 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row2
-            , <&pro_micro 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row3
+            = <&pro_micro 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row0
+            , <&pro_micro 16 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row1
+            , <&pro_micro 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row2
+            , <&pro_micro 9 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // row3
             ;
     };
 
