@@ -1,4 +1,4 @@
-# LowKey36 by Matt Gilbert
+# LowKey36 a split 36-key ergo keyboard
 
 This is the ZMK source repo for the LowKey36 spit keyboard.
 
